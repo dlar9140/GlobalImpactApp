@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6ABFBEFF21E79A40000DB007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABFBEFE21E79A40000DB007 /* AppDelegate.swift */; };
-		6ABFBF0121E79A40000DB007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABFBF0021E79A40000DB007 /* ViewController.swift */; };
+		6ABFBF0121E79A40000DB007 /* ImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABFBF0021E79A40000DB007 /* ImpactViewController.swift */; };
 		6ABFBF0421E79A40000DB007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABFBF0221E79A40000DB007 /* Main.storyboard */; };
 		6ABFBF0621E79A45000DB007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABFBF0521E79A45000DB007 /* Assets.xcassets */; };
 		6ABFBF0921E79A45000DB007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABFBF0721E79A45000DB007 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		6ABFBEFB21E79A40000DB007 /* GlobalImpactApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobalImpactApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABFBEFE21E79A40000DB007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6ABFBF0021E79A40000DB007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6ABFBF0021E79A40000DB007 /* ImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactViewController.swift; sourceTree = "<group>"; };
 		6ABFBF0321E79A40000DB007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6ABFBF0521E79A45000DB007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ABFBF0821E79A45000DB007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		6ABFBF1121E79A67000DB007 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				6ABFBF0021E79A40000DB007 /* ViewController.swift */,
+				6ABFBF0021E79A40000DB007 /* ImpactViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -159,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ABFBF0121E79A40000DB007 /* ViewController.swift in Sources */,
+				6ABFBF0121E79A40000DB007 /* ImpactViewController.swift in Sources */,
 				6ABFBEFF21E79A40000DB007 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,7 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GlobalImpactApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GlobalImpactApp/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,7 +324,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GlobalImpactApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GlobalImpactApp/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
